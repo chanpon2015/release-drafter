@@ -1,2 +1,2 @@
 # Release-drafter
-テスト
+テスト1
