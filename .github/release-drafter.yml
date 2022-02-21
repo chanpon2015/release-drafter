@@ -16,7 +16,7 @@ categories:
     labels:
       - 'chore'
 
-change-template: '- $TITLE @AUTHOR (#$NUMBER)'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 
 change-title-escapes: '\<*_&'
 
