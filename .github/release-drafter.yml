@@ -10,6 +10,9 @@ categories:
       - 'bugfix'
       - 'bug'
 
+exclude-labels:
+  - 'release'
+
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 
 change-title-escapes: '\<*_&'
@@ -52,3 +55,6 @@ autolabeler:
   - label: enhancement
     branch:
       - '/(enhancement|improve)[/-].+/'
+  - label: release
+    branch:
+      - '/^develop[/-].+/'
