@@ -27,7 +27,7 @@ version-resolver:
   default: patch
 
 template: |
-  ## Changes
+  ## ラベル未設定
 
   $CHANGES
 
